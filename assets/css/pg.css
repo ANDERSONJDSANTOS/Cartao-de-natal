@@ -1,0 +1,48 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Mountains+of+Christmas&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@400;700&family=Twinkle+Star&display=swap');
+
+body {
+    margin: 0;
+    background: url('./img/imgn.jpg') no-repeat;
+    background-size: cover;
+    font-family: 'Twinkle Star', cursive;
+}
+
+.topo {
+    margin-top:12px;
+    font-family: 'Mountains of Christmas', cursive;
+    font-size: 35px;
+    text-align: center;
+    object-fit: cover;
+    color: aliceblue;
+    
+}
+.topomenu {
+    margin-top:20px;
+    font-family: 'Twinkle Star', cursive;
+    font-size: 35px;
+    color: aliceblue;
+    text-align: center;
+
+}
+.topomenu1 {
+    margin-top:20px;
+    font-family: 'Twinkle Star', cursive;
+    color: aliceblue;
+    text-align: center;
+    
+}
+
+footer {
+    margin-top:30px;
+    
+}
+
+nav {
+    margin-bottom:50px ;
+}
+
+
+
+	

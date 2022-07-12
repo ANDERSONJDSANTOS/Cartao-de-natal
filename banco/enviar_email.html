@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <title>email</title>
+        <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="http://localhost/natal-web/cartao-natal/XMAS/template/painel.php?rota=ver_cartao&id={$_GET['id']}" method="post">
+        <h2>Acessa seu cartão de natal</h2>
+
+        <label for="Nome">Nome</label><br>
+        <input type="text" name="nome" required><br>
+
+        <label for="Sobrenome">Sobrenome</label><br>
+        <input type="text" name="sobrenome" required><br>
+
+        <label form="E-mail">E-mail</label><br>
+        <input type="email" name="email"required><br>
+
+        <form action="http://localhost/natal-web/cartao-natal/XMAS/template/painel.php?rota=ver_cartao&id={$_GET['id']}">
+        <input type="submit" value="Acessa seu cartão " />
+        </form>
+    </form>
+</body>
+</html>
+
